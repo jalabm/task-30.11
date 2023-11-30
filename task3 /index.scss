@@ -1,0 +1,25 @@
+@import "reset";
+
+body{
+    background-color: #f7f4ff;
+    display: grid;
+    place-items: center;
+}
+.container{
+    padding: 4rem;
+    border-radius: 10px;
+    background-color: #fff;
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4 , 124px);
+        grid-template-rows: 124px , 124px;
+        gap: 8px;
+
+        .card{
+            border-radius: 10px;
+            border: 1px solid #9ca3af;
+
+        }
+    }
+}
