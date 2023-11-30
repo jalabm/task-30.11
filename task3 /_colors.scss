@@ -1,0 +1,16 @@
+$colors:(
+lightpink:#FFECEB,
+lightpurple:#ECF0FF,
+lightblue:#ECF0FF ,
+lightsky:#D7F9F3 ,
+lightgreen:#E2FFD4 ,
+lighwhite:#fff,
+lightyellow: #FFF2C8,
+lightorange: #FFD8C9,
+);
+
+@each $key, $value in $colors{
+.bg-#{$key}   {
+background-color: $value;
+}
+}
